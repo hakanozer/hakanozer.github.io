@@ -58,13 +58,13 @@
                     <div class="site-nav">
                         <!-- Main menu -->
                         <ul class="header-main-menu" id="header-main-menu">
-                            <li><a class="active" href="#home"><i class="fas fa-home"></i> Anasayfa</a></li>
-                            <li><a href="#about-me"><i class="fas fa-user-tie"></i> Hakkımda</a></li>
-                            <li><a href="#resume"><i class="fas fa-award"></i> Neler Yapıyorum</a></li>
-                            <!-- <li><a href="#portfolio"><i class="fas fa-business-time"></i> Portfolio</a></li> -->
-                            <!-- <li><a href="#blog"><i class="fas fa-book-reader"></i> Blog</a></li> -->
-                            <li><a href="#contact"><i class="fas fa-paper-plane"></i> İletişim</a></li>
-                            <!-- <li><a href="#appointments"><i class="fas fa-calendar-check"></i> Appointments</a></li> -->
+                            <li><a class="active" href="#home" id="c_home"><i class="fas fa-home"></i> Anasayfa</a></li>
+                            <li><a href="#about-me" id="c_about-me"><i class="fas fa-user-tie"></i> Hakkımda</a></li>
+                            <li><a href="#resume" id="c_resume"><i class="fas fa-award"></i> Neler Yapıyorum</a></li>
+                            <li><a href="#portfolio" id="c_portfolio"><i class="fas fa-business-time"></i> Referanslarım</a></li>
+                            <!-- <li><a href="#blog" id="c_blog"><i class="fas fa-book-reader"></i> Blog</a></li> -->
+                            <li><a href="#contact" id="c_contact"><i class="fas fa-paper-plane"></i> İletişim</a></li>
+                            <!-- <li><a href="#appointments" id="c_appointments"><i class="fas fa-calendar-check"></i> Appointments</a></li> -->
                         </ul> 
                         <!-- /Main menu -->
                         <!-- Copyrights -->
@@ -801,123 +801,736 @@
                     <!-- End of Resume Subpage -->
 
                     <!-- Portfolio Subpage -->
-                    <!-- <section id="portfolio" class="sub-page">
+                    <section id="portfolio" class="sub-page">
                         <div class="sub-page-inner">
                             <div class="section-title">
                                 <div class="main-title">
                                     <div class="title-main-page">
-                                        <h4>Portfolio</h4>
-                                        <p>Samples of some of my work from the past year.</p>
+                                        <h4>Referanslarım</h4>
+                                        <p>Danışmanlık Yaptığım / Eğitim verdiğim Kurum ve Firmalar</p>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="section-content">
-                                <div class="filter-tabs">
-                                    <button class="fil-cat" data-rel="all"><span>0</span> All</button>
-                                    <button class="fil-cat" data-rel="photography"><span>05</span> Websites</button>
-                                    <button class="fil-cat" data-rel="web-design"><span>07</span> Decorations</button>
-                                    <button class="fil-cat" data-rel="branding"><span>12</span> Business Logo</button>
-                                </div>
+                    
 
                                 <div class="portfolio-grid portfolio-trigger" id="portfolio-page">
-                                    <div class="label-portfolio"><span class="rotated-sub">project</span><span class="project-count">8</span></div>
+                                    <div class="label-portfolio"><span class="rotated-sub">Kurum</span><span class="project-count">54</span></div>
                                     <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item branding photography all">
-                                            <div class="portfolio-img">
-                                                <img src="images/portfolio/portfolio-img-1.jpeg" class="img-responsive" alt="">
+
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/bau.png" class="img-responsive" alt="">
                                             </div>
+                                            <a href="https://bau.edu.tr/" target="_blank">
                                             <div class="portfolio-data">
-                                                <h4><a href="portfolio-single.html">Company Branding</a></h4>
-                                                <p class="meta">Branding + Photography</p>
                                                 <div class="portfolio-attr"> 
-                                                    <a href="portfolio-single.html"><i class="lnr lnr-link"></i></a> 
-                                                    <a href="images/portfolio/portfolio-img-1.jpeg" data-rel="lightcase:gal" title="Image Caption"><i class="lnr lnr-move"></i></a> 
+                                                    
                                                 </div>
                                             </div>
+                                            </a> 
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item web-design branding all">
-                                            <div class="portfolio-img"><img src="images/portfolio/portfolio-img-2.jpeg" class="img-responsive" alt=""></div>
-                                            <div class="portfolio-data">
-                                                <h4><a href="portfolio-single.html">Home Decoration</a></h4>
-                                                <p class="meta">Web design + Branding</p>
-                                                <div class="portfolio-attr"> 
-                                                    <a href="portfolio-single.html"><i class="lnr lnr-link"></i></a> 
-                                                    <a href="images/portfolio/portfolio-img-2.jpeg" data-rel="lightcase:gal" title="Image Caption"><i class="lnr lnr-move"></i></a> 
-                                                </div>                                              
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/kosgeb.png" class="img-responsive" alt="">
                                             </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item branding all">
-                                            <div class="portfolio-img"><img src="images/portfolio/portfolio-img-3.jpeg" class="img-responsive" alt=""></div>
+                                            <a href="https://www.kosgeb.gov.tr/" target="_blank">
                                             <div class="portfolio-data">
-                                                <h4><a href="portfolio-single.html">Photography</a></h4>
-                                                <p class="meta">Branding</p>
                                                 <div class="portfolio-attr"> 
-                                                    <a href="portfolio-single.html"><i class="lnr lnr-link"></i></a> 
-                                                    <a href="images/portfolio/portfolio-img-3.jpeg" data-rel="lightcase:gal" title="Image Caption"><i class="lnr lnr-move"></i></a> 
-                                                </div>                                             
+                                                    
+                                                </div>
                                             </div>
+                                            </a> 
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item web-design branding all">
-                                            <div class="portfolio-img"><img src="images/portfolio/portfolio-img-4.jpeg" class="img-responsive" alt=""></div>
+
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/turkcell.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.turkcell.com.tr/" target="_blank">
                                             <div class="portfolio-data">
-                                                <h4><a href="portfolio-single.html">Furniture branding</a></h4>
-                                                <p class="meta">Web design + Branding</p>
                                                 <div class="portfolio-attr"> 
-                                                    <a href="portfolio-single.html"><i class="lnr lnr-link"></i></a> 
-                                                    <a href="images/portfolio/portfolio-img-4.jpeg" data-rel="lightcase:gal" title="Image Caption"><i class="lnr lnr-move"></i></a> 
-                                                </div>                                              
+                                                    
+                                                </div>
                                             </div>
+                                            </a> 
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item branding all">
-                                            <div class="portfolio-img"><img src="images/portfolio/portfolio-img-5.jpeg" class="img-responsive" alt=""></div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/yapikredi.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.yapikredi.com.tr/" target="_blank">
                                             <div class="portfolio-data">
-                                                <h4><a href="portfolio-single.html">Flowers power</a></h4>
-                                                <p class="meta">Branding</p>
                                                 <div class="portfolio-attr"> 
-                                                    <a href="portfolio-single.html"><i class="lnr lnr-link"></i></a> 
-                                                    <a href="images/portfolio/portfolio-img-5.jpeg" data-rel="lightcase:gal" title="Image Caption"><i class="lnr lnr-move"></i></a> 
-                                                </div>                                                
+                                                    
+                                                </div>
                                             </div>
+                                            </a> 
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item web-design branding all">
-                                            <div class="portfolio-img"><img src="images/portfolio/portfolio-img-6.jpeg" class="img-responsive" alt=""></div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/ziraatbankasi.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.ziraatbank.com.tr/" target="_blank">
                                             <div class="portfolio-data">
-                                                <h4><a href="portfolio-single.html">Furniture branding</a></h4>
-                                                <p class="meta">Web design + Branding</p>
                                                 <div class="portfolio-attr"> 
-                                                    <a href="portfolio-single.html"><i class="lnr lnr-link"></i></a> 
-                                                    <a href="images/portfolio/portfolio-img-6.jpeg" data-rel="lightcase:gal" title="Image Caption"><i class="lnr lnr-move"></i></a> 
-                                                </div>                                               
+                                                    
+                                                </div>
                                             </div>
+                                            </a> 
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item branding all">
-                                            <div class="portfolio-img"><img src="images/portfolio/portfolio-img-7.jpeg" class="img-responsive" alt=""></div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/isbankasi.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.isbank.com.tr/" target="_blank">
                                             <div class="portfolio-data">
-                                                <h4><a href="portfolio-single.html">Flowers power</a></h4>
-                                                <p class="meta">Branding</p>
                                                 <div class="portfolio-attr"> 
-                                                    <a href="portfolio-single.html"><i class="lnr lnr-link"></i></a> 
-                                                    <a href="images/portfolio/portfolio-img-7.jpeg" data-rel="lightcase:gal" title="Image Caption"><i class="lnr lnr-move"></i></a> 
-                                                </div>                                                
+                                                    
+                                                </div>
                                             </div>
+                                            </a> 
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item web-design branding all">
-                                            <div class="portfolio-img"><img src="images/portfolio/portfolio-img-8.jpeg" class="img-responsive" alt=""></div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/sgk.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="http://www.sgk.gov.tr/" target="_blank">
                                             <div class="portfolio-data">
-                                                <h4><a href="portfolio-single.html">Furniture branding</a></h4>
-                                                <p class="meta">Web design + Branding</p>
                                                 <div class="portfolio-attr"> 
-                                                    <a href="portfolio-single.html"><i class="lnr lnr-link"></i></a> 
-                                                    <a href="images/portfolio/portfolio-img-8.jpeg" data-rel="lightcase:gal" title="Image Caption"><i class="lnr lnr-move"></i></a> 
-                                                </div>                                               
+                                                    
+                                                </div>
                                             </div>
+                                            </a> 
                                         </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/sahibindencom.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.sahibinden.com/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/turktelekom.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.turktelekom.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/ibb.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://medya.istanbul/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/musiad.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.musiad.org.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/vodafone.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.vodafone.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/turkpak.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.turpak.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/i2isystem.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://i2i-systems.com/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/kkb.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.kkb.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/iktext.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="http://www.iktex.az/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/tubitak.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.tubitak.gov.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/borsaistanbul.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.borsaistanbul.com/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/allianazsigorta.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.allianz.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/globalbilgi.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.globalbilgi.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/cardif.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.bnpparibascardif.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/etiya.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.etiya.com/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/netas.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://netas.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/icbc.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.icbc.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/softech.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://softtech.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/ibtech.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.ibtech.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/tmo.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.tmo.gov.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/sekerbank.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.sekerbank.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/anadolusigorta.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.anadolusigorta.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/innova.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.innova.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/takasistanbul.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.takasbank.com.tr/tr" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/tskb.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.tskb.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/raw_new_media.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://rawmedianetwork.com/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/beykent.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.beykent.edu.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/itu.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.itu.edu.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/istanbul_barolar_birligi.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.istanbulbarosu.org.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/hegem.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="#portfolio">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/reeder.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://reeder.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/aka_koleji.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://akakoleji.k12.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+                                        
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/care_dernegi.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.care.org.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+                                        
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/romanson.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="http://www.romanson.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+                                        
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/mywishlist.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://apkpure.com/nl/mywishlist-kolektif-hediye/funwith.com.mywishlist" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/qrme.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="#portfolio">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/frekans.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.frekans.com/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/akademi_bilgisayar.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="http://www.akademishop.net/anasayfa.html" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/vakifay.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="http://www.vakifay.org/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/buyuk_zuccaciye.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="http://zeyve.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/piri_reis.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="http://www.pirireis.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/pipa.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.pipapipa.com/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+                                        
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/radix.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="http://radix.com.tr/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/chantierfilms.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="http://www.chantierfilms.com/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/tscci.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://www.tscci.org.uk/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/artepelle.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="http://www.arte-pelle.com/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+                                        <div class="col-6 col-lg-2 col-md-3 col-sm-6 col-xs-6 portfolio-item branding photography all p-3">
+                                            <div class="portfolio-img" style="border: 1px solid #0fd7ef;">
+                                                <img src="images/logos/bykhan.png" class="img-responsive" alt="">
+                                            </div>
+                                            <a href="https://bykhan.com/" target="_blank">
+                                            <div class="portfolio-data">
+                                                <div class="portfolio-attr"> 
+                                                    
+                                                </div>
+                                            </div>
+                                            </a> 
+                                        </div>
+
+
+                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section> -->
+                    </section>
                     <!-- /Portfolio Subpage -->
 
                     <!-- Blog Subpage -->

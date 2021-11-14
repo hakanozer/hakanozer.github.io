@@ -338,5 +338,16 @@ jQuery(document).ready(function () {
     $('#preloader').fadeOut('slow', function () {
         $(this).remove();
     });
+
+
+    const itm = window.location.hash.replace('#', '');
+    if(itm) {
+        const st = "c_"+itm;
+        //console.log(st);
+        $("#"+st).trigger( "click" );
+    }
+
+
+    
 });
  
