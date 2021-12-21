@@ -61,7 +61,7 @@ jQuery(document).ready(function () {
     /*************************
      Responsive Menu
      *************************/
-    $('.responsive-icon').on("click", function (e) {
+    $('.responsive-icon, .responsive-logo').on("click", function (e) {
         e.preventDefault();
         e.stopPropagation();
         if (!$(this).hasClass('active')) {
